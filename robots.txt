@@ -1,0 +1,14 @@
+User-agent: *
+Disallow: /
+
+# Extra explicit blocks for common crawlers (optional but harmless)
+User-agent: Googlebot
+Disallow: /
+
+User-agent: Bingbot
+Disallow: /
+
+User-agent: GPTBot
+Disallow: /
+
+Sitemap: (none)
