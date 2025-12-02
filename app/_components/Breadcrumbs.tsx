@@ -1,0 +1,53 @@
+"use client";
+
+import Link from "next/link";
+import { usePathname } from "next/navigation";
+
+const Breadcrumbs = ({ color }: { color: string }) => {
+  const pathname = usePathname();
+
+  const segments = pathname.split("/").filter((seg) => seg);
+  return (
+    <nav className={`text-sm uppercase mt-4 ${color}`}>
+      <ol className="flex items-center space-x-2">
+        {segments.length > 0 && (
+          <li>
+            <Link href="/" className="hover:underline ">
+              Početna
+            </Link>
+          </li>
+        )}
+
+        {segments.map((segment, idx) => {
+          const href = "/" + segments.slice(0, idx + 1).join("/");
+          console.log("segment", segment);
+
+          let label = segment.includes("-")
+            ? segment.replace(/-/g, " ")
+            : segment;
+
+          if (segment.includes("terapijske-usluge")) {
+            label = "usluge";
+          }
+          if (segment.includes("konzervativna-stomatologija")) {
+            label = "konzervativna";
+          }
+          if (segment.includes("terapija-donjovilicnog-zgloba")) {
+            label = "terapija d.v. zgloba";
+          }
+
+          return (
+            <li key={idx} className="flex items-center">
+              <span className="mx-2">/</span>
+              <Link href={href} className="hover:underline tracking-wider">
+                {label}
+              </Link>
+            </li>
+          );
+        })}
+      </ol>
+    </nav>
+  );
+};
+
+export default Breadcrumbs;
