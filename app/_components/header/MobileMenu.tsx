@@ -4,6 +4,7 @@ import { useState } from "react";
 import Link from "next/link";
 import { motion, AnimatePresence } from "framer-motion";
 import { FaPhoneAlt, FaTimes } from "react-icons/fa";
+import { links } from "@/lib/nav-links";
 
 interface NavLink {
   href: string;
@@ -14,20 +15,11 @@ interface MobileMenuProps {
   links: NavLink[];
 }
 
-export default function MobileMenu({ links }: MobileMenuProps) {
+export default function MobileMenu() {
   const [isOpen, setIsOpen] = useState(false);
-
-  //   const links = [
-  //     { href: "/", label: "Početna" },
-  //     { href: "/o-nama", label: "O nama" },
-  //     { href: "/usluge", label: "Usluge" },
-  //     { href: "/galerija", label: "Galerija" },
-  //     { href: "/kontakt", label: "Kontakt" },
-  //   ];
 
   return (
     <>
-      {/* Hamburger */}
       <button
         onClick={() => setIsOpen(true)}
         className="lg:hidden z-50"

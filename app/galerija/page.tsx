@@ -1,4 +1,4 @@
-import Gallery from "../_components/Gallery";
+import GalleryWrapper from "../_components/DynamicGallery";
 import PageHeader from "../_components/ui/PageHeader";
 
 const GalleryPage = () => {
@@ -7,7 +7,7 @@ const GalleryPage = () => {
       <PageHeader title="Galerija" />
       <br />
       <br />
-      <Gallery />
+      <GalleryWrapper />
     </main>
   );
 };

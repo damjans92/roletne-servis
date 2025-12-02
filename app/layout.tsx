@@ -3,6 +3,7 @@ import { Montserrat, Red_Hat_Display } from "next/font/google";
 import "./globals.css";
 import Navbar from "./_components/header/Navbar";
 import Footer from "./_components/footer/Footer";
+import Header from "./_components/header/Header";
 
 export const montserrat = Montserrat({
   subsets: ["latin"],
@@ -37,7 +38,8 @@ export default function RootLayout({
       <body
         className={`${montserrat.variable} ${redHatDisplay.variable} antialiased`}
       >
-        <Navbar />
+        {/* <Navbar /> */}
+        <Header />
         {children}
         <Footer />
       </body>
