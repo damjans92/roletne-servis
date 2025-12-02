@@ -1,53 +1,43 @@
-import Image from "next/image";
+import MobileMenu from "./MobileMenu";
+import TopBar from "./TopBar";
 import Link from "next/link";
-import React from "react";
+import Image from "next/image";
+import { FaPhoneAlt } from "react-icons/fa";
+
+const links = [
+  { href: "/", label: "Početna" },
+  { href: "/o-nama", label: "O nama" },
+  { href: "/usluge", label: "Usluge" },
+  { href: "/galerija", label: "Galerija" },
+  { href: "/kontakt", label: "Kontakt" },
+];
 
 const Navbar = () => {
   return (
     <header>
-      <div className="bg-black text-white">
-        <div className="container mx-auto px-6 py-3 lg:py-4">
-          <div className="flex flex-col lg:flex-row justify-between items-center gap-3 text-center lg:text-left">
-            {/* LEVO – poverenje */}
-            <div className="flex flex-col sm:flex-row items-center gap-4 lg:gap-8 text-xs lg:text-sm font-black tracking-widest uppercase">
-              <span className="text-[#bb8c30]">
-                ✓ Dolazak isti ili sledeći dan
-              </span>
-              <span className="hidden lg:inline text-[#bb8c30]">
-                ✓ 24h hitne intervencije
-              </span>
-            </div>
+      <TopBar />
 
-            {/* CENTAR – BROJ (najveći i najvažniji) */}
-            <a
-              href="tel:0658488408"
-              className="font-black text-sm  tracking-wider hover:text-[#bb8c30] transition"
-            >
-              065 / 8488 408
-            </a>
-
-            {/* DESNO – lokacija */}
-            <div className="text-sm font-bold tracking-widest uppercase text-[#bb8c30]">
-              Beograd – Palilula
-            </div>
-          </div>
-        </div>
-      </div>
       <div className="px-4 py-8 lg:py-12">
-        <div className="container mx-auto flex items-center justify-between ">
-          <button className=" flex lg:hidden">
-            {/* <FaBars className="w-full h-full" size={28} /> */}
-          </button>
-          <Link href="/">
+        <div className="container mx-auto flex items-center justify-between">
+          {/* MOBILNI MENI – zamena za FaBars */}
+          <MobileMenu links={links} />
+
+          {/* Logo */}
+          <Link
+            href="/"
+            className="absolute left-1/2 -translate-x-1/2 lg:static lg:translate-x-0"
+          >
             <Image
-              src={"/Logo4.svg"}
+              src="/Logo4.svg"
               width={250}
               height={60}
-              priority={true}
-              alt="Logo"
-              style={{ width: "auto", height: "auto" }}
+              priority
+              alt="Roletnar Beograd"
+              className="w-auto h-auto"
             />
           </Link>
+
+          {/* Desktop navigacija */}
           <nav className="hidden lg:flex items-center">
             <ul className="flex items-center gap-10 xl:gap-12 uppercase font-black tracking-widest text-sm">
               <li className="group">
@@ -97,9 +87,11 @@ const Navbar = () => {
               </li>
             </ul>
           </nav>
-          <button className=" flex lg:hidden">
-            {/* <FaPhoneAlt className="w-6 h-6" /> */}
-          </button>
+
+          {/* Telefon ikonica na mobilnom – možeš je ostaviti ili skloniti */}
+          <a href="tel:0658488408" className="lg:hidden">
+            <FaPhoneAlt size={26} color="#222" />
+          </a>
         </div>
       </div>
     </header>

@@ -1,10 +1,9 @@
-import Hero2 from "./_components/Hero2";
 import About from "./_components/About";
 import SendUsImage from "./_components/SendUsImage";
 import Services from "./_components/Services";
-import Gallery from "./_components/Gallery";
 import BlindsCarousel from "./_components/BlindsCarousel";
 import Hero from "./_components/Hero";
+import GalleryWrapper from "./_components/DynamicGallery";
 
 export default function Home() {
   return (
@@ -16,7 +15,7 @@ export default function Home() {
 
       <div className="border-t-1 border-stone-300" />
       <Services />
-      <Gallery />
+      <GalleryWrapper />
       <BlindsCarousel />
     </main>
   );

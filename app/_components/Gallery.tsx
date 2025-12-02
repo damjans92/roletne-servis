@@ -1,52 +1,12 @@
-"use client"; // OVO MORA NA VRHU!
+"use client";
 
 import Image from "next/image";
 import { useEffect } from "react";
 import GLightbox from "glightbox";
 import "glightbox/dist/css/glightbox.min.css";
-
-type GalleryItem =
-  | { type: "text"; title: string; desc: string }
-  | { type: "image"; src: string; alt: string };
+import { galleryItems } from "@/lib/gallery";
 
 const Gallery = () => {
-  const items: GalleryItem[] = [
-    {
-      type: "text",
-      title: "Drvene roletne",
-      desc: "Dugovečne i izrađene od kvalitetnog drveta unose prirodu u Vaš dom",
-    },
-    {
-      type: "image",
-      src: "/reparacija-drvenih-roletni.png",
-      alt: "Reparacija drvenih roletni",
-    },
-    {
-      type: "image",
-      src: "/izrada-drvenih-roletni.png",
-      alt: "Izrada drvenih roletni",
-    },
-    { type: "image", src: "/gurtna_mini.png", alt: "Mini gurtna" },
-    { type: "image", src: "/gurtna_standard.png", alt: "Standard gurtna" },
-    {
-      type: "text",
-      title: "Gurtna za roletne",
-      desc: "Mini ili standard – kanap za podizanje i spuštanje roletne",
-    },
-    {
-      type: "text",
-      title: "Automat za roletne",
-      desc: "Mehanički ili električni – navija gurtnu i omogućava rad roletne",
-    },
-    { type: "image", src: "/automat-za-roletne.png", alt: "Mehanički automat" },
-    {
-      type: "image",
-      src: "/elektricni-automat.png",
-      alt: "Električni automat sa motorom",
-    },
-  ];
-
-  // INICIJALIZACIJA LIGHTBOX-A – pokreće se svaki put kad se komponenta učita
   useEffect(() => {
     const lightbox = GLightbox({
       selector: ".glightbox",
@@ -54,7 +14,11 @@ const Gallery = () => {
       loop: true,
     });
 
-    return () => lightbox.destroy();
+    return () => {
+      if (lightbox) {
+        lightbox.destroy();
+      }
+    };
   }, []);
 
   return (
@@ -66,7 +30,7 @@ const Gallery = () => {
         <div className="w-32 h-1 bg-[#bb8c30] mx-auto mt-4"></div>
 
         <div className="mt-16 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
-          {items.map((item, index) => (
+          {galleryItems.map((item, index) => (
             <div
               key={index}
               className={`
@@ -78,7 +42,6 @@ const Gallery = () => {
                 }
               `}
             >
-              {/* TEKST KARTICA */}
               {item.type === "text" ? (
                 <>
                   <h3 className="uppercase font-redhat text-2xl lg:text-3xl font-black tracking-wider">
@@ -89,7 +52,6 @@ const Gallery = () => {
                   </p>
                 </>
               ) : (
-                /* SLIKA + LIGHTBOX */
                 <a
                   href={item.src}
                   className="glightbox block relative w-full h-full"

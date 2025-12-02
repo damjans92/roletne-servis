@@ -1,5 +1,5 @@
 import { Phone, Clock, Mail, MapPin } from "lucide-react";
-import PageHeader from "../_components/PageHeader";
+import PageHeader from "../_components/ui/PageHeader";
 
 const ContactPage = () => {
   return (

@@ -1,4 +1,4 @@
-import PageHeader from "../_components/PageHeader";
+import PageHeader from "../_components/ui/PageHeader";
 
 const AboutUs = () => {
   return (

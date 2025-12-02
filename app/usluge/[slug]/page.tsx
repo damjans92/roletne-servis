@@ -1,4 +1,4 @@
-import Breadcrumbs from "@/app/_components/Breadcrumbs";
+import Breadcrumbs from "@/app/_components/ui/Breadcrumbs";
 import ServiceCard from "@/app/_components/ServiceCard";
 import { services } from "@/lib/services";
 import Image from "next/image";

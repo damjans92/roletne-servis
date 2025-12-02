@@ -1,5 +1,5 @@
 import Gallery from "../_components/Gallery";
-import PageHeader from "../_components/PageHeader";
+import PageHeader from "../_components/ui/PageHeader";
 
 const GalleryPage = () => {
   return (
