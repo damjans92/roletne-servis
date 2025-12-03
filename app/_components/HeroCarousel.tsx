@@ -59,7 +59,6 @@ export default function HeroCarousel() {
 
   return (
     <section className="relative h-[60vh] min-h-[560px]   overflow-hidden">
-      {/* Background */}
       <div className="absolute inset-0">
         <Image
           src="/zamena-gurtne.jpg"
@@ -71,7 +70,6 @@ export default function HeroCarousel() {
         <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/40 to-black/60" />
       </div>
 
-      {/* Content */}
       <div className="relative h-full flex items-center justify-center z-10">
         <div className="container mx-auto px-6 lg:px-8 text-center">
           <div className="overflow-hidden" ref={emblaRef}>
@@ -100,7 +98,6 @@ export default function HeroCarousel() {
         </div>
       </div>
 
-      {/* Working Dots */}
       <div className="absolute bottom-8 lg:bottom-12 left-1/2 -translate-x-1/2 flex gap-3 z-20">
         {slides.map((_, i) => (
           <button
@@ -116,7 +113,6 @@ export default function HeroCarousel() {
         ))}
       </div>
 
-      {/* Optional Arrows (only visible on large screens + hover) */}
       <div className="absolute inset-x-0 top-1/2 -translate-y-1/2 pointer-events-none hidden lg:block">
         <button
           onClick={scrollPrev}

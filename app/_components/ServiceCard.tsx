@@ -31,11 +31,10 @@ const ServiceCard = ({
           ${
             isOrange
               ? "bg-gradient-to-br from-[#bb8c30] to-[#a0741e]"
-              : "bg-gradient-to-br from-[#333333] to-[#1f1f1f]" // idealno svetlija tamna varijanta
+              : "bg-gradient-to-br from-[#333333] to-[#1f1f1f]"
           }
         `}
       >
-        {/* Suptilni zlatni sjaj na hover */}
         <div className="absolute inset-0 border-4 border-[#bb8c30] opacity-0 group-hover:opacity-30 transition-opacity duration-300 pointer-events-none" />
 
         <div>

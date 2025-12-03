@@ -29,11 +29,9 @@ export default function TextCarousel() {
     <section className="py-20 lg:py-32 bg-white">
       <div className="container mx-auto px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-center">
-          {/* LEVO: Tekst carousel */}
           <div className="lg:col-span-5">
             <div className="overflow-hidden" ref={emblaRef}>
               <div className="flex">
-                {/* Tvoja 3 slajda – ne diraj */}
                 <div className="flex-none w-full px-8 lg:px-12 py-16 lg:py-20">
                   <h2 className="font-redhat uppercase text-4xl lg:text-5xl tracking-widest text-[#222] leading-tight">
                     Aluminijumske
@@ -80,7 +78,6 @@ export default function TextCarousel() {
             </div>
           </div>
 
-          {/* DESNO: Slika + strelice + DOTS ISPOD SLIKE */}
           <div className="lg:col-span-7 relative">
             <Image
               src={

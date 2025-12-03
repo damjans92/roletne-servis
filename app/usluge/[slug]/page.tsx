@@ -66,7 +66,7 @@ export default async function ServicePage({
 
           {/* Suptilan podnaslov – opciono */}
           <p className="mt-6 text-xl text-white/70 max-w-3xl">
-            Beograd – Palilula – dolazak isti ili sledeći dan
+            Beograd – dolazak isti ili sledeći dan
           </p>
         </div>
       </section>

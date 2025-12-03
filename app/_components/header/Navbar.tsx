@@ -7,7 +7,7 @@ const Navbar = () => {
       <ul className="flex items-center gap-10 xl:gap-12 uppercase font-black tracking-widest text-sm">
         {links.map((link, i) => {
           return (
-            <li className="group">
+            <li className="group" key={link.href}>
               <Link
                 href={link.href}
                 className="text-[#222] hover:text-[#bb8c30] transition duration-300 relative pb-1"

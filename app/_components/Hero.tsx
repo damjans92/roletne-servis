@@ -29,21 +29,11 @@ const Hero = ({ title }: { title: string }) => {
             <h1 className="text-3xl lg:text-5xl font-normal tracking-widest mb-4 uppercase lg:leading-13 max-w-[70%]">
               {title}
             </h1>
-            <a
-              href="#"
-              className="uppercase tracking-widest link-underline text-sm"
-              onClick={scrollNext}
-            >
-              Detaljnije
-            </a>
           </div>
 
-          {/* Paragraph sticks to bottom */}
           <div className="flex flex-col items-center md:flex-row md:justify-between">
             <p className="mt-4 text-md font-bold uppercase tracking-widest font-redhat text-center md:text-left">
               Beograd,
-              <br />
-              Palilula
             </p>
             <div className="text-5xl lg:text-7xl font-extrabold flex-none px-5 mt-8 lg:mt-0">
               <Image

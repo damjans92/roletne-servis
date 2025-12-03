@@ -20,12 +20,6 @@ const About = () => {
             <strong>celom Beogradu</strong>. Ugradnju i izradu roletni radimo i
             u široj okolini Beograda.
           </p>
-          {/* <Link
-            href="#"
-            className="uppercase tracking-widest pb-6 link-underline"
-          >
-            Saznajte više
-          </Link> */}
         </div>
         <div className="order-1 lg:order-2 lg:w-7/12 mb-6 lg:mb-0 bg-gray-400 h-full w-full border-1">
           <img src="/roletnar.jpg" alt="Dr Savkovic" className="grayscale" />

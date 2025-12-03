@@ -22,7 +22,7 @@ const PageHeader = ({ title }: { title: string }) => {
         <div className="mt-10 w-40 h-1 bg-[#bb8c30]" />
 
         <p className="mt-6 text-xl text-white/70 max-w-3xl">
-          Beograd – Palilula – dolazak isti ili sledeći dan
+          Beograd – dolazak isti ili sledeći dan
         </p>
       </div>
     </section>
