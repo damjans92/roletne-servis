@@ -37,8 +37,8 @@ const Hero = ({ title }: { title: string }) => {
             </p>
             <div className="text-5xl lg:text-7xl font-extrabold flex-none px-5 mt-8 lg:mt-0">
               <Image
-                src="/Logo4.svg"
-                alt="Logo"
+                src="/roletne-servis.svg"
+                alt="Roletnar Beograd - Servis i popravka roletni"
                 width={220}
                 height={40}
                 className="w-34 sm:w-38 md:w-45 lg:w-48 h-auto"

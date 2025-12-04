@@ -16,7 +16,8 @@ const Footer = () => {
         </div>
 
         <div className="mt-16 pt-8 border-t border-gray-800 text-center text-xs tracking-widest text-gray-600">
-          © {new Date().getFullYear()} Roletnar Beograd • Sva prava zadržana
+          © {new Date().getFullYear()} Servis i popravka roletni - Roletnar
+          Beograd • Sva prava zadržana
         </div>
       </div>
     </footer>

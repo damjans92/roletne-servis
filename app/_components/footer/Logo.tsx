@@ -5,7 +5,7 @@ const Logo = () => {
   return (
     <div className="md:col-span-4">
       <Image
-        src="/Logo4.svg"
+        src="/roletne-servis.svg"
         alt="Roletnar Beograd – Servis i popravka roletni"
         width={240}
         height={50}

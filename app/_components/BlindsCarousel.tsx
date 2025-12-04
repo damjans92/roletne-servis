@@ -95,7 +95,6 @@ export default function TextCarousel() {
               priority
             />
 
-            {/* Oštre strelice */}
             <button
               onClick={scrollPrev}
               className="absolute left-4 top-1/2 -translate-y-1/2 hidden lg:block w-14 h-14 bg-white border-4 border-gray-800 hover:border-[#bb8c30] hover:bg-[#bb8c30] hover:text-white transition-all shadow-xl"
@@ -109,10 +108,8 @@ export default function TextCarousel() {
               <ChevronRight className="w-9 h-9 mx-auto" strokeWidth={3} />
             </button>
 
-            {/* Zlatni okvir na hover */}
             <div className="absolute inset-0 border-8 border-transparent hover:border-[#bb8c30] transition-all duration-500 pointer-events-none" />
 
-            {/* DOTS ISPOD SLIKE – centrirani, na svim ekranima */}
             <div className="flex justify-center gap-5 mt-8">
               {[0, 1, 2].map((i) => (
                 <button

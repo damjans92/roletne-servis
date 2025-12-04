@@ -20,11 +20,11 @@ const Header = () => {
             className="absolute left-1/2 -translate-x-1/2 lg:static lg:translate-x-0"
           >
             <Image
-              src="/Logo4.svg"
+              src="/roletne-servis.svg"
               width={250}
               height={60}
               priority
-              alt="Roletnar Beograd"
+              alt="Roletnar Beograd - Servis i popravka roletni"
               className="w-auto h-auto"
             />
           </Link>
