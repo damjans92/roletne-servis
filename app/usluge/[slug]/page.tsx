@@ -126,7 +126,7 @@ export default async function ServicePage({
                 title={service.title}
                 description={service.shortDescription}
                 icon={service.icon}
-                url={service.slug}
+                url={`/usluge/${service.slug}`}
                 bgColor={service.bgColor}
               />
             ))}

@@ -34,7 +34,7 @@ export const services = [
     description:
       "Kada dođe vreme da ugradite roletne, možete se zapitati koji materijal je pravi. Sva tri materijala su veoma funkcionalna, svi imaju različite i brojne prednosti i svi su pogodni za ugradnju. Takođe postoje i električne roletne koje mogu biti odličan izbor, u stanju su da garantuju sigurnost i udobnost kao i mehaničke roletne.",
     shortDescription:
-      "Izrada u ugranja novih roletni. U ponudi su: aluminijumske, plastične i drvene roletne.",
+      "Izrada i ugranja novih roletni. U ponudi su: aluminijumske, plastične i drvene roletne.",
     seoTitle: "Ugradnja Roletni Beograd | PVC, Aluminijumske, Drvene",
     metaDescription:
       "Profesionalna ugradnja novih roletni. Nudimo sve vrste materijala (PVC, alu, drvo) kao i opciju za električne roletne. Pozovite za ponudu.",
@@ -46,7 +46,7 @@ export const services = [
     slug: "reparacija-drvenih-roletni",
     title: `Reparacija drvenih roletni`,
     description:
-      "Drvo je prvi materijal koji se koristio za proizvodnju roletni a spada i u najplemenitiji materijal. One imaju odličnu toplotnu i zvučnu izolaciju. Korišćenjem posebne tehnologije možemo da repariramo drvene roletne i produžimo vek trajanja. Proces reparacije podrazumeva skidanje roletni, obrada drveta (skidanje laka i farbe do drveta), zaštitno premazivanje sandolinom i posebnim lakom za drvene rolete i nakon sušenja sledi montaža roletni. Ugradnja, popravka ili zaštita starih drvenih roletni je dostupna u gradu Beogradu i široj okolini.",
+      "Drvo je prvi materijal koji se koristio za proizvodnju roletni a spada i u najplemenitiji materijal. One imaju odličnu toplotnu i zvučnu izolaciju. Korišćenjem posebne tehnologije možemo da repariramo drvene roletne i produžimo vek trajanja. Proces reparacije podrazumeva skidanje roletni, obrada drveta (skidanje laka i farbe do drveta), zaštitno premazivanje sandolinom i posebnim lakom za drvene roletne i nakon sušenja sledi montaža roletni. Ugradnja, popravka ili zaštita starih drvenih roletni je dostupna u gradu Beogradu i široj okolini.",
     shortDescription:
       "Zaštita ili kompletna reparacija starih drvenih roletni.",
     seoTitle: "Reparacija Drvenih Roletni Beograd | Obrada i Farbanje",

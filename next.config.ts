@@ -1,12 +1,16 @@
-import type { NextConfig } from "next";
+// import type { NextConfig } from "next";
 
-const nextConfig: NextConfig = {
-  // output: "export",
-  // images: {
-  //   unoptimized: true,
-  // },
-  // trailingSlash: true,
-  // skipTrailingSlashRedirect: true,
+const isProd = process.env.NODE_ENV === "production";
+
+const nextConfig = {
+  output: isProd ? "export" : undefined,
+
+  images: {
+    unoptimized: isProd,
+  },
+
+  trailingSlash: isProd ? true : undefined,
+  skipTrailingSlashRedirect: isProd ? true : undefined,
 };
 
-export default nextConfig;
+module.exports = nextConfig;

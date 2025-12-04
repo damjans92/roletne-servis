@@ -8,8 +8,8 @@ const About = () => {
           </h2>
 
           <p className="pb-6 md:px-10 text-lg">
-            Naš servis je specijalizovana kompanija za popravki u izradu svih
-            vrsta roletni. Poslujemo već 35 godine i stekli smo veliki broj
+            Naš servis je specijalizovana kompanija za popravke i izradu svih
+            vrsta roletni. Poslujemo već 35 godina i stekli smo veliki broj
             zadovoljnih korisnika naših usluga. Karakterišu nas brz i kvalitetan
             rad iskusnih majstora. Radimo na svim vrstama roletni.
             <br /> <br />
