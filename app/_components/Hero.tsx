@@ -33,7 +33,7 @@ const Hero = ({ title }: { title: string }) => {
 
           <div className="flex flex-col items-center md:flex-row md:justify-between">
             <p className="mt-4 text-md font-bold uppercase tracking-widest font-redhat text-center md:text-left">
-              Beograd,
+              Beograd
             </p>
             <div className="text-5xl lg:text-7xl font-extrabold flex-none px-5 mt-8 lg:mt-0">
               <Image
