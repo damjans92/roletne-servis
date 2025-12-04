@@ -2,6 +2,31 @@ import { Phone, Clock, MapPin } from "lucide-react";
 import { FaViber } from "react-icons/fa";
 import PageHeader from "../_components/ui/PageHeader";
 
+export const metadata = {
+  title: "Kontakt – Roletne Servis Beograd | 064/3922-467",
+  description:
+    "Pozovite odmah 064/3922-467 – dolazak u najkraćem roku na celoj teritoriji Beograda. Radimo od 08-20h 7 dana u nedelji.",
+
+  openGraph: {
+    title:
+      "Kontakt – Servis i popravka roletni Beograd | Popravka i ugradnja roletni 064/3922-467",
+    description:
+      "Dolazak u najkraćem roku • Radimo 7 dana u nedelji • Pozovite sada!",
+    url: "https://roletne-servis.rs/kontakt",
+    siteName: "Servis i popravka roletni",
+    images: [
+      {
+        url: "https://roletne-servis.rs/og-image.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Servis i popravka roletni Beograd – pozovite 064/3922-467",
+      },
+    ],
+    locale: "sr_RS",
+    type: "website",
+  },
+};
+
 const ContactPage = () => {
   return (
     <main>
@@ -9,10 +34,6 @@ const ContactPage = () => {
 
       <section className="py-20 ">
         <div className="container mx-auto px-6 max-w-7xl">
-          {/* <h1 className="text-center text-4xl lg:text-5xl font-extralight tracking-widest uppercase mb-16 lg:mb-10   text-black  py-10">
-          Kontakt
-        </h1> */}
-
           <div className="grid md:grid-cols-2 md:gap-0">
             <div className="order-2 md:order-1 h-96 md:h-full">
               <iframe
@@ -36,11 +57,11 @@ const ContactPage = () => {
                       <p className="font-medium">Radno vreme</p>
                       <p className="mt-4 text-gray-600 md:text-gray-300">
                         Pon – Pet:{" "}
-                        <span className="font-normal">11:00 – 19:00</span>
+                        <span className="font-normal">08:00 – 20:00</span>
                       </p>
                       <p className="text-gray-600 md:text-gray-300">
                         Subota i nedelja:{" "}
-                        <span className="font-normal">po pozivu</span>
+                        <span className="font-normal">08:00 – 20:00</span>
                       </p>
                     </div>
                   </div>
@@ -80,7 +101,7 @@ const ContactPage = () => {
                         href="mailto:info@email.rs"
                         className="mt-4 block text-gray-700 md:text-gray-200 hover:text-[#bb8c30] transition"
                       >
-                        065 / 848 88 08
+                        065 / 8488 808
                       </a>
                     </div>
                   </div>

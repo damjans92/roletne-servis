@@ -21,11 +21,29 @@ export const redHatDisplay = Red_Hat_Display({
 
 export const metadata: Metadata = {
   title: {
-    default: "Servis i popravka roletni",
-    template: "%s | Servis i popravka roletni",
+    default: "Servis i popravka roletni Beograd",
+    template: "%s | Servis i popravka roletni Beograd",
   },
   description:
-    "Servis i popravka roletni - Brza i pouzdana usluga popravke roletni za vaš dom ili poslovni prostor. Kontaktirajte nas danas!",
+    "Roletnar, servis i poprakva svih vrsta roletni. Montaža i ugradnja novih roletni. Aluminijumske roletne, PVC roletne, drvene roletne, venecijaneri, trakaste zavese. Popravka drvenih roletni, reparavija i ugradnja.",
+
+  openGraph: {
+    title: "Servis i popravka roletni Beograd",
+    description:
+      "Roletnar, servis i poprakva svih vrsta roletni. Montaža i ugradnja novih roletni. Aluminijumske roletne, PVC roletne, drvene roletne, venecijaneri, trakaste zavese. Popravka drvenih roletni, reparavija i ugradnja.",
+    url: "https://servis-popravka-roletni",
+    siteName: "Servis i popravka roletni",
+    images: [
+      {
+        url: "https://servis-popravka-roletni/og-image.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Servis i popravka roletni Beograd",
+      },
+    ],
+    locale: "sr_RS",
+    type: "website",
+  },
 };
 
 export default function RootLayout({
@@ -38,7 +56,6 @@ export default function RootLayout({
       <body
         className={`${montserrat.variable} ${redHatDisplay.variable} antialiased`}
       >
-        {/* <Navbar /> */}
         <Header />
         {children}
         <Footer />

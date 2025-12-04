@@ -3,6 +3,7 @@ import ServiceCard from "@/app/_components/ServiceCard";
 import { services } from "@/lib/services";
 import Image from "next/image";
 import { notFound } from "next/navigation";
+import { Metadata } from "next";
 
 export async function generateStaticParams() {
   return services.map((service) => ({
@@ -23,9 +24,34 @@ export async function generateMetadata({
     };
   }
 
+  const fullUrl = `https://servis-popravka-roletni.com/usluge/${slug}`;
+
   return {
-    title: service.seoTitle,
-    description: service.metaDescription,
+    title: service.seoTitle || `${service.title} Beograd`,
+    description:
+      service.metaDescription ||
+      `Brza i povoljna ${service.title.toLowerCase()} na teritoriji celog Beograda. Pozovite 064/3922-467`,
+
+    alternates: {
+      canonical: fullUrl,
+    },
+
+    openGraph: {
+      title: `${service.title} Beograd – Radno vreme 08-20h | Roletne Servis`,
+      description: `Pozovite odmah 064/3922-467 • Dolazak za 60 min • Najbolje cene u Beogradu`,
+      url: fullUrl,
+      siteName: "Roletne Servis",
+      images: [
+        {
+          url: "https://servis-popravka-roletni/og-image.jpg",
+          width: 1200,
+          height: 630,
+          alt: `Popravka i servis roletni Beograd – ${service.title}`,
+        },
+      ],
+      locale: "sr_RS",
+      type: "website",
+    },
   };
 }
 

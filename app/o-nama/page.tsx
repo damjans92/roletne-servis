@@ -1,5 +1,33 @@
 import PageHeader from "../_components/ui/PageHeader";
 
+export const metadata = {
+  title: "O nama | 35 godina iskustva",
+  description: "Više od 30 godina iskustva u popravci i ugradnji roletni…",
+
+  alternates: {
+    canonical: "https://servis-popravka-roletni.com/o-nama",
+  },
+
+  openGraph: {
+    title:
+      "Servis i popravka roletni Beograd – 35 godina iskustva u popravci roletni",
+    description:
+      "Preko 35 godina rada • Hiljade zadovoljnih klijenata • Brz dolazak na teren • Celim Beogradom i okolinom",
+    url: "https://servis-popravka-roletni.com/o-nama",
+    siteName: "Servis i popravka roletni",
+    images: [
+      {
+        url: "https://servis-popravka-roletni.com/og-image.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Servis i popravka roletni Beograd – 35 godina iskustva u popravci i izradi roletni",
+      },
+    ],
+    locale: "sr_RS",
+    type: "website",
+  },
+};
+
 const AboutUs = () => {
   return (
     <main>
@@ -7,13 +35,9 @@ const AboutUs = () => {
       <section id="about" className="py-20 ">
         <div className="container mx-auto flex flex-wrap">
           <div className=" lg:w-5/12 flex flex-col md:text-center   ">
-            {/* <h2 className="uppercase pb-7 text-2xl lg:text-4xl tracking-[4px] font-bold font-redhat">
-              <span className="text-(--color-accent-gold)">O</span> nama
-            </h2> */}
-
             <p className="pb-6 md:px-10">
               Naš servis je specijalizovana kompanija za popravki u izradu svih
-              vrsta roletni. Poslujemo već 35 godine i stekli smo veliki broj
+              vrsta roletni. Poslujemo već 35 godina i stekli smo veliki broj
               zadovoljnih korisnika naših usluga. Karakterišu nas brz i
               kvalitetan rad iskusnih majstora. Radimo na svim vrstama roletni.
               <br /> <br />
