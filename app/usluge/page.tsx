@@ -1,4 +1,4 @@
-import Services from "../_components/Services";
+import Services from "../_components/sections/Services";
 import PageHeader from "../_components/ui/PageHeader";
 
 export const metadata = {

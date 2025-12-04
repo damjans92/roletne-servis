@@ -3,7 +3,7 @@
 import Image from "next/image";
 import React from "react";
 import HeroCarousel from "./HeroCarousel";
-import Breadcrumbs from "./ui/Breadcrumbs";
+import Breadcrumbs from "../ui/Breadcrumbs";
 
 const Hero = ({ title }: { title: string }) => {
   const scrollNext = (e: React.MouseEvent) => {

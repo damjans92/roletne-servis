@@ -1,5 +1,5 @@
 import { Metadata } from "next";
-import GalleryWrapper from "../_components/DynamicGallery";
+import GalleryWrapper from "../_components/sections/DynamicGallery";
 import PageHeader from "../_components/ui/PageHeader";
 
 export const metadata: Metadata = {

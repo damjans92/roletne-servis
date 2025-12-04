@@ -10,10 +10,10 @@ const TopBar = () => {
           </div>
 
           <a
-            href="tel:0658488408"
+            href="tel:+381643922467"
             className="font-black text-sm  tracking-wider hover:text-[var(--color-accent-gold)] transition"
           >
-            065 / 8488 408
+            064 / 3922 467
           </a>
 
           <div className="text-sm font-bold tracking-widest uppercase text-[var(--color-accent-gold)]">
