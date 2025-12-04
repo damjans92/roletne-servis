@@ -33,7 +33,7 @@ const ServicesPage = () => {
       <PageHeader title="Naše usluge" />
       <section className="py-16 lg:py-18 lg:pb-0 bg-white">
         <div className="container mx-auto px-6 lg:px-8 text-center">
-          <p className="font-redhat text-xl sm:text-2xl lg:text-3xl text-[#333] tracking-wider">
+          <p className="font-redhat text-xl   text-[#333] tracking-wider">
             Specijalizovani smo za popravku i zamenu svih vrsta roletni već 30+
             godina.
           </p>

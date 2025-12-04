@@ -7,7 +7,7 @@ const About = () => {
             <span className="text-(--color-accent-gold)">O</span> nama
           </h2>
 
-          <p className="pb-6 md:px-10">
+          <p className="pb-6 md:px-10 text-lg">
             Naš servis je specijalizovana kompanija za popravki u izradu svih
             vrsta roletni. Poslujemo već 35 godine i stekli smo veliki broj
             zadovoljnih korisnika naših usluga. Karakterišu nas brz i kvalitetan

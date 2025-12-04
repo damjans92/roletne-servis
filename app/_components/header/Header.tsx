@@ -29,7 +29,7 @@ const Header = () => {
             />
           </Link>
           <Navbar />
-          <a href="tel:0658488408" className="lg:hidden">
+          <a href="tel:+381643922467" className="lg:hidden">
             <FaPhoneAlt size={26} color="#222" />
           </a>
         </div>

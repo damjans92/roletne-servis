@@ -24,7 +24,7 @@ const Gallery = () => {
   return (
     <section className="bg-stone-100 py-20 lg:py-28">
       <div className="container mx-auto px-4 lg:px-8 text-center">
-        <h2 className="uppercase text-4xl lg:text-6xl tracking-widest font-black font-redhat text-gray-900">
+        <h2 className="uppercase text-4xl  tracking-widest font-black font-redhat text-gray-900">
           ROLETNE <span className="text-[#bb8c30]">I DELOVI</span>
         </h2>
         <div className="w-32 h-1 bg-[#bb8c30] mx-auto mt-4"></div>

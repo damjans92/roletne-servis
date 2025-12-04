@@ -35,7 +35,7 @@ const AboutUs = () => {
       <section id="about" className="py-20 ">
         <div className="container mx-auto flex flex-wrap">
           <div className=" lg:w-5/12 flex flex-col md:text-center   ">
-            <p className="pb-6 md:px-10">
+            <p className="pb-6 md:px-10 text-xl">
               Naš servis je specijalizovana kompanija za popravki u izradu svih
               vrsta roletni. Poslujemo već 35 godina i stekli smo veliki broj
               zadovoljnih korisnika naših usluga. Karakterišu nas brz i
