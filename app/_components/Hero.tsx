@@ -52,14 +52,33 @@ const Hero = ({ title }: { title: string }) => {
         <div className="w-full md:flex-1 text-gray-600">
           <Breadcrumbs color={"!text-black"} />
         </div>
-        <div className="w-full text-center py-3 md:flex-1 justify-center">
-          <a
-            href="#"
-            className="link-underline tracking-widest uppercase text-sm"
+        <div className="pt-12 pb-8 md:pb-12 lg:pb-16">
+          <button
             onClick={scrollNext}
+            className="group flex flex-col items-center gap-4"
           >
-            Skroluj dole
-          </a>
+            <span
+              className="text-xs uppercase tracking-widest font-black text-[#bb8c30] 
+                       group-hover:text-[#8a6a23] transition"
+            >
+              Skroluj dole
+            </span>
+
+            <svg
+              className="w-7 h-7 text-[#bb8c30] group-hover:text-[#8a6a23] 
+                      animate-pulse [animation-duration:3s] transition-colors"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="2.5"
+              viewBox="0 0 24 24"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                d="M19 14l-7 7m0 0l-7-7m7 7V3"
+              />
+            </svg>
+          </button>
         </div>
         <div className="flex-1"></div>
       </div>
