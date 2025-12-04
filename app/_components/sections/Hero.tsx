@@ -48,14 +48,15 @@ const Hero = ({ title }: { title: string }) => {
           </div>
         </div>
       </div>
-      <div className="flex flex-wrap">
-        <div className="w-full md:flex-1 text-gray-600">
-          <Breadcrumbs color={"!text-black"} />
-        </div>
-        <div className="pt-12 pb-8 md:pb-12 lg:pb-16">
+
+      <div className="flex flex-wrap justify-center">
+        <div className="pt-12 pb-8 md:pb-12 lg:pb-16 w-full ">
+          {" "}
+          {/* Dodao sam w-full i max-w-xs radi kontrole širine kontejnera */}
           <button
             onClick={scrollNext}
-            className="group flex flex-col items-center gap-4"
+            // Dodajte 'w-full' ovde da se proteže celom širinom parenta
+            className="group flex flex-col items-center gap-4 w-full"
           >
             <span
               className="text-xs uppercase tracking-widest font-black text-[#bb8c30] 
@@ -80,7 +81,6 @@ const Hero = ({ title }: { title: string }) => {
             </svg>
           </button>
         </div>
-        <div className="flex-1"></div>
       </div>
     </section>
   );

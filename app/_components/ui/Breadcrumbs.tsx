@@ -8,7 +8,7 @@ const Breadcrumbs = ({ color }: { color: string }) => {
 
   const segments = pathname.split("/").filter((seg) => seg);
   return (
-    <nav className={`text-sm uppercase mt-4 ${color}`}>
+    <nav className={`text-xs md:text-sm uppercase mt-4 ${color}`}>
       <ol className="flex items-center space-x-2">
         {segments.length > 0 && (
           <li>

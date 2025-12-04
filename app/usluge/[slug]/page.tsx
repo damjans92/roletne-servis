@@ -71,13 +71,13 @@ export default async function ServicePage({
       <section className="relative bg-[#1e1e1e] overflow-hidden">
         <div className="absolute top-0 left-0 right-0 h-1 bg-[#bb8c30]" />
 
-        <div className="container mx-auto px-6 lg:px-8 py-16 lg:py-24">
+        <div className="container mx-auto px-6 py-8 lg:px-8 sm:py-16 lg:py-24">
           <Breadcrumbs color="text-white/60 hover:text-[#bb8c30] transition" />
 
           <h1
             className="
           font-redhat uppercase font-black tracking-widest text-white 
-          text-4xl sm:text-5xl lg:text-6xl 
+          text-2xl sm:text-4xl md:text-5xl lg:text-6xl 
           leading-tight mt-8 max-w-6xl
         "
           >
@@ -86,8 +86,8 @@ export default async function ServicePage({
 
           <div className="mt-10 w-40 h-1 bg-[#bb8c30]" />
 
-          <p className="mt-6 text-xl text-white/70 max-w-3xl">
-            Beograd – dolazak isti ili sledeći dan
+          <p className="mt-6 text-xs sm:text-xl text-white/70 max-w-3xl">
+            Beograd – dolazak u najkraćem roku
           </p>
         </div>
       </section>
@@ -95,13 +95,13 @@ export default async function ServicePage({
       <section className="py-24 lg:py-32 bg-white">
         <div className="container mx-auto px-6 lg:px-8 max-w-7xl">
           <div className="grid lg:grid-cols-2 gap-16 lg:gap-24 items-start">
-            <div className="order-2 lg:order-1">
+            <div className=" ">
               <div className="prose text-lg  leading-relaxed text-[#333333] max-w-2xl">
                 {service.description}
               </div>
             </div>
 
-            <div className="order-1 lg:order-2">
+            <div className=" ">
               <div className="relative group">
                 <Image
                   src={service.image}

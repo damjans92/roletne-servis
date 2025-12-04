@@ -15,7 +15,7 @@ const Logo = () => {
       <p className="mt-6 text-sm text-gray-500 leading-relaxed">
         Brza popravka i ugradnja roletni
         <br />
-        Beograd • Dolazak isti ili sledeći dan
+        Beograd • Dolazak u najkraćem roku
       </p>
     </div>
   );
