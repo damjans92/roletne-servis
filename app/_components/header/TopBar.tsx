@@ -13,19 +13,19 @@ const TopBar = () => {
               href="tel:+381643922467"
               className="font-bold  text-xs sm:text-sm tracking-wider hover:text-[var(--color-accent-gold)] transition"
             >
-              064/3922467
+              064/3922 467
             </a>
             <a
               href="tel:+381658488408"
               className="font-bold  text-xs sm:text-sm tracking-wider hover:text-[var(--color-accent-gold)] transition"
             >
-              065/8488408
+              065/8488 408
             </a>
             <a
               href="tel:+381603339656"
               className="font-bold  text-xs sm:text-sm tracking-wider hover:text-[var(--color-accent-gold)] transition"
             >
-              060/3339656
+              060/3339 656
             </a>
           </div>
           <div className="hidden sm:block text-xs sm:text-sm font-bold tracking-widest uppercase text-[var(--color-accent-gold)]">
