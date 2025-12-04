@@ -80,7 +80,7 @@ export default function HeroCarousel() {
                     <h1 className="font-redhat uppercase font-extralight tracking-widest text-white text-5xl sm:text-6xl md:text-6xl  leading-tight mb-6">
                       {slide.headline}
                     </h1>
-                    <p className="text-xl sm:text-2xl lg:text-3xl text-gray-200 font-light tracking-wide mb-10 max-w-3xl mx-auto">
+                    <p className="text-lg md:text-2xl text-gray-200 font-light tracking-wide mb-10 max-w-md mx-auto">
                       {slide.text}
                     </p>
                     <a

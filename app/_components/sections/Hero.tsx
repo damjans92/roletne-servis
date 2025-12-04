@@ -51,11 +51,8 @@ const Hero = ({ title }: { title: string }) => {
 
       <div className="flex flex-wrap justify-center">
         <div className="pt-12 pb-8 md:pb-12 lg:pb-16 w-full ">
-          {" "}
-          {/* Dodao sam w-full i max-w-xs radi kontrole širine kontejnera */}
           <button
             onClick={scrollNext}
-            // Dodajte 'w-full' ovde da se proteže celom širinom parenta
             className="group flex flex-col items-center gap-4 w-full"
           >
             <span
