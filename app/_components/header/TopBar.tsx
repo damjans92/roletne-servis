@@ -8,7 +8,7 @@ const TopBar = () => {
               ✓ Pokrivamo ceo Beograd
             </span>
           </div>
-          <div className="flex flex-wrap gap-3 justify-center">
+          <div className="flex flex-wrap gap-3 lg:gap-6 justify-center">
             <a
               href="tel:+381643922467"
               className="font-bold  text-xs sm:text-sm tracking-wider hover:text-[var(--color-accent-gold)] transition"
