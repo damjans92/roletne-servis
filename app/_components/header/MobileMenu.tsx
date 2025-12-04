@@ -91,7 +91,7 @@ export default function MobileMenu() {
                     initial={{ opacity: 0, y: 20 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ delay: 0.6 }}
-                    className="inline-flex items-center gap-4 bg-[#bb8c30] text-black font-black uppercase tracking-widest text-xl px-4 sm:px-12  py-6 hover:bg-[#d4a857] transition-all shadow-[6px_6px_0px_#222] hover:shadow-[8px_8px_0px_#222] hover:translate-x-[-2px] hover:translate-y-[-2px]"
+                    className="inline-flex items-center gap-4 bg-[#bb8c30] text-black font-black uppercase tracking-widest text-lg sm:text-xl px-4 sm:px-12  py-6 hover:bg-[#d4a857] transition-all shadow-[6px_6px_0px_#222] hover:shadow-[8px_8px_0px_#222] hover:translate-x-[-2px] hover:translate-y-[-2px]"
                   >
                     <FaPhoneAlt size={28} />
                     065 / 8488 408

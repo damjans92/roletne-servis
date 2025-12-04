@@ -21,6 +21,15 @@ export const metadata: Metadata = {
     ],
     type: "website",
   },
+  robots: {
+    index: true,
+    follow: true,
+    nocache: false,
+    googleBot: {
+      index: true,
+      follow: true,
+    },
+  },
 };
 const GalleryPage = () => {
   return (

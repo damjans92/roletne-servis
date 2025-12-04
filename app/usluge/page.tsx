@@ -25,6 +25,15 @@ export const metadata = {
     locale: "sr_RS",
     type: "website",
   },
+  robots: {
+    index: true,
+    follow: true,
+    nocache: false,
+    googleBot: {
+      index: true,
+      follow: true,
+    },
+  },
 };
 
 const ServicesPage = () => {
