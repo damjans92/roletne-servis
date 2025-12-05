@@ -1,5 +1,4 @@
 import Image from "next/image";
-import React from "react";
 
 const SendUsImage = () => {
   return (
@@ -17,7 +16,7 @@ const SendUsImage = () => {
                 priority
               />
               <p className="mt-6 text-3xl font-black text-[#222] tracking-wider">
-                065 8 488 408
+                065 8488 408
               </p>
             </div>
 
@@ -35,7 +34,7 @@ const SendUsImage = () => {
               </p>
 
               <a
-                href="viber://chat?number=%2B38165488408"
+                href="viber://chat?number=%2B381658488408"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-block px-10 py-4 bg-[#bb8c30] hover:bg-[#a0741e] text-white font-bold uppercase tracking-wider text-lg

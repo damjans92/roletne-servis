@@ -35,7 +35,6 @@ export default function MobileMenu() {
       <AnimatePresence>
         {isOpen && (
           <>
-            {/* Backdrop */}
             <motion.div
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
@@ -44,7 +43,6 @@ export default function MobileMenu() {
               className="fixed inset-0 bg-black/70 z-50 lg:hidden"
             />
 
-            {/* Meni – slide odozgo, SHARP uglovi */}
             <motion.div
               initial={{ y: -50, opacity: 0 }}
               animate={{ y: 0, opacity: 1 }}
@@ -53,7 +51,6 @@ export default function MobileMenu() {
               className="fixed top-16 left-4 right-4 z-50 lg:hidden"
             >
               <div className="bg-white/95 backdrop-blur-xl border-2 border-[#222] shadow-[8px_8px_0px_#222] overflow-hidden">
-                {/* X dugme */}
                 <button
                   onClick={() => setIsOpen(false)}
                   className="absolute top-4 right-4 p-2 hover:bg-gray-100 transition"
@@ -61,7 +58,6 @@ export default function MobileMenu() {
                   <FaTimes size={28} color="#222" />
                 </button>
 
-                {/* Linkovi – stagger */}
                 <nav className="pt-20 pb-12 px-8">
                   <ul className="space-y-8 text-center">
                     {links.map((link, i) => (
@@ -84,17 +80,16 @@ export default function MobileMenu() {
                   </ul>
                 </nav>
 
-                {/* CTA – bez scale-a = bez treptaja */}
                 <div className="px-4 sm:px-8 pb-12 text-center">
                   <motion.a
-                    href="tel:0658488408"
+                    href="tel:+381643922467"
                     initial={{ opacity: 0, y: 20 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ delay: 0.6 }}
                     className="inline-flex items-center gap-4 bg-[#bb8c30] text-black font-black uppercase tracking-widest text-lg sm:text-xl px-4 sm:px-12  py-6 hover:bg-[#d4a857] transition-all shadow-[6px_6px_0px_#222] hover:shadow-[8px_8px_0px_#222] hover:translate-x-[-2px] hover:translate-y-[-2px]"
                   >
                     <FaPhoneAlt size={28} />
-                    065 / 8488 408
+                    064 / 3922 467
                   </motion.a>
                 </div>
               </div>
