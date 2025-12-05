@@ -108,7 +108,9 @@ const ContactPage = () => {
                     <div>
                       <p className="font-medium">Viber</p>
                       <a
-                        href="mailto:info@email.rs"
+                        href="viber://chat?number=%2B381658488408"
+                        target="_blank"
+                        rel="noopener noreferrer"
                         className="mt-4 block text-gray-700 md:text-gray-200 hover:text-[#bb8c30] transition"
                       >
                         065 / 8488 808
