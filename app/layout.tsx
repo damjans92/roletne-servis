@@ -4,6 +4,7 @@ import "./globals.css";
 import Navbar from "./_components/header/Navbar";
 import Footer from "./_components/footer/Footer";
 import Header from "./_components/header/Header";
+import FloatingViber from "./_components/ui/FloatingViber";
 
 export const montserrat = Montserrat({
   subsets: ["latin"],
@@ -58,6 +59,7 @@ export default function RootLayout({
       >
         <Header />
         {children}
+        <FloatingViber />
         <Footer />
       </body>
     </html>

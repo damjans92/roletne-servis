@@ -1,47 +1,83 @@
 import Image from "next/image";
+import { FaViber } from "react-icons/fa";
 
 const SendUsImage = () => {
   return (
-    <section className="py-16 lg:py-20 bg-white">
+    <section className="py-16 lg:py-20 bg-stone-50 relative">
+      <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-[#bb8c30]/50 to-transparent" />
+
       <div className="container mx-auto px-6 lg:px-8">
         <div className="max-w-4xl mx-auto">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16 items-center">
-            <div className="text-center lg:text-left">
-              <Image
-                src="/roletnar-beograd-kontakt.png"
-                width={160}
-                height={160}
-                alt="Viber kontakt"
-                className="mx-auto lg:mx-0 shadow-xl"
-                priority
-              />
-              <p className="mt-6 text-3xl font-black text-[#222] tracking-wider">
-                065 8488 408
-              </p>
+            <div className="order-2 lg:order-1 text-center lg:text-left">
+              <div className="inline-block text-center">
+                <div className="inline-block group">
+                  <Image
+                    src="/roletnar-beograd-kontakt.png"
+                    width={150}
+                    height={150}
+                    alt="Pošaljite sliku kvara na Viber"
+                    className="shadow-[10px_10px_0_#222]
+                 transition-all duration-500 ease-out"
+                    priority
+                  />
+                </div>
+
+                <p className="mt-8">
+                  <a
+                    href="viber://chat?number=%2B381658488408"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="group block"
+                  >
+                    <span
+                      className="block text-5xl font-black tracking-tighter leading-none
+                   text-[#222]
+                   group-hover:text-[#bb8c30]
+                   transition-colors duration-400
+                   
+                   group-hover:scale-105
+                   inline-block"
+                    >
+                      065 8488 408
+                    </span>
+
+                    <span
+                      className="block text-lg font-bold text-[#222]/60 mt-2
+                   opacity-0 group-hover:opacity-100
+                   group-hover:text-[#bb8c30]
+                   transition-all duration-500 delay-75"
+                    >
+                      → Pošalji sliku kvara na Viber
+                    </span>
+                  </a>
+                </p>
+              </div>
             </div>
 
-            <div className="text-center lg:text-left">
-              <h2 className="font-redhat uppercase text-2xl lg:text-3xl font-bold tracking-wider text-[#222]">
+            <div className="order-1 lg:order-2 text-center lg:text-left">
+              <h2 className="text-4xl lg:text-5xl font-black uppercase tracking-widest text-[#222] leading-tight">
                 Pošaljite sliku kvara
               </h2>
-              <div className="w-20 h-1 bg-[#bb8c30] mt-4 mb-6 mx-auto lg:mx-0"></div>
 
-              <p className="text-lg text-gray-700 leading-relaxed mb-8">
-                Fotografišite roletnu i pošaljite nam.
+              <div className="w-32 h-1.5 bg-[#bb8c30] mt-6 mb-8 mx-auto lg:mx-0" />
+
+              <p className="text-lg lg:text-xl text-[#222]/80 leading-relaxed max-w-lg mx-auto lg:mx-0">
+                Fotografišite problem na roletni i pošaljite nam odmah.
                 <br />
-                Odgovorićemo Vam <strong>za najviše 15 minuta</strong> sa tačnom
-                cenom.
+                <strong className="text-[#bb8c30]">
+                  Odgovor u najkraćem roku.
+                </strong>
               </p>
 
               <a
                 href="viber://chat?number=%2B381658488408"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-block px-10 py-4 bg-[#bb8c30] hover:bg-[#a0741e] text-white font-bold uppercase tracking-wider text-lg
-                       border-4 border-[#bb8c30] hover:border-[#a0741e] shadow-lg hover:shadow-xl hover:-translate-y-0.5
-                       transition-all duration-200"
+                className="mt-8 inline-flex items-center gap-3 px-8 py-4 bg-[#bb8c30] text-white font-black uppercase tracking-widest text-sm hover:bg-[#222] hover:text-[#bb8c30] rounded-lg shadow-lg hover:shadow-2xl hover:shadow-[#bb8c30]/20 transition-all duration-300"
               >
-                Pošalji sliku preko Vibera
+                <FaViber />
+                Pošalji preko Vibera
               </a>
             </div>
           </div>
