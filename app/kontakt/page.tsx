@@ -97,7 +97,7 @@ const ContactPage = () => {
                           href="tel:+381658488408"
                           className="block text-gray-700 md:text-gray-200 hover:text-[#bb8c30] transition"
                         >
-                          065 / 8488 808
+                          065 / 8488 408
                         </a>
                       </div>
                     </div>
@@ -113,7 +113,7 @@ const ContactPage = () => {
                         rel="noopener noreferrer"
                         className="mt-4 block text-gray-700 md:text-gray-200 hover:text-[#bb8c30] transition"
                       >
-                        065 / 8488 808
+                        065 / 8488 408
                       </a>
                     </div>
                   </div>
