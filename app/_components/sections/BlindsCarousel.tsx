@@ -43,7 +43,7 @@ export default function TextCarousel() {
                   <p className="mt-8 text-lg lg:text-xl text-gray-600 leading-relaxed">
                     Punjene pur penom za vrhunsku toplotnu i zvučnu izolaciju.
                     <br />
-                    Dostupne u svim RAL bojama i dimenzijama po meri.
+                    Dostupne u svim bojama i dimenzijama po meri.
                   </p>
                 </div>
                 <div className="flex-none w-full px-8 lg:px-12 py-16 lg:py-20">
