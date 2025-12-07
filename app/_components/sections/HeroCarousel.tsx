@@ -45,7 +45,7 @@ export default function HeroCarousel() {
   const slides = [
     {
       headline: "Zamena gurtni",
-      text: "Brzo i pouzdano – na licu mesta ili u radionici",
+      text: "Brzo i pouzdano",
     },
     {
       headline: "Popravka roletni",
@@ -77,9 +77,9 @@ export default function HeroCarousel() {
               {slides.map((slide, i) => (
                 <div key={i} className="flex-none w-full">
                   <div className="max-w-5xl mx-auto">
-                    <h1 className="font-redhat uppercase font-extralight tracking-widest text-white text-5xl sm:text-6xl md:text-6xl  leading-tight mb-6">
+                    <h2 className="font-redhat uppercase font-extralight tracking-widest text-white text-5xl sm:text-6xl md:text-6xl  leading-tight mb-6">
                       {slide.headline}
-                    </h1>
+                    </h2>
                     <p className="text-lg md:text-2xl text-gray-200 font-light tracking-wide mb-10 max-w-md mx-auto">
                       {slide.text}
                     </p>
