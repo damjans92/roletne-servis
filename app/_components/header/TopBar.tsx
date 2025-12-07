@@ -11,19 +11,19 @@ const TopBar = () => {
           <div className="flex flex-wrap gap-3 lg:gap-6 justify-center">
             <a
               href="tel:+381643922467"
-              className="font-bold  text-xs sm:text-sm tracking-wider hover:text-[var(--color-accent-gold)] transition"
+              className="font-bold  sm:text-sm tracking-wider hover:text-[var(--color-accent-gold)] transition"
             >
               064/3922 467
             </a>
             <a
               href="tel:+381658488408"
-              className="font-bold  text-xs sm:text-sm tracking-wider hover:text-[var(--color-accent-gold)] transition"
+              className="font-bold  sm:text-sm tracking-wider hover:text-[var(--color-accent-gold)] transition"
             >
               065/8488 408
             </a>
             <a
               href="tel:+381603339656"
-              className="font-bold  text-xs sm:text-sm tracking-wider hover:text-[var(--color-accent-gold)] transition"
+              className="font-bold  sm:text-sm tracking-wider hover:text-[var(--color-accent-gold)] transition"
             >
               060/3339 656
             </a>
