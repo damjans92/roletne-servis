@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import { Montserrat, Red_Hat_Display } from "next/font/google";
 import "./globals.css";
-import Navbar from "./_components/header/Navbar";
 import Footer from "./_components/footer/Footer";
 import Header from "./_components/header/Header";
 import FloatingViber from "./_components/ui/FloatingViber";
@@ -22,16 +21,16 @@ export const redHatDisplay = Red_Hat_Display({
 
 export const metadata: Metadata = {
   title: {
-    default: "Servis i popravka roletni Beograd",
-    template: "%s | Servis i popravka roletni Beograd",
+    default: "Servis i popravka roletni Beograd | Ugradnja novih",
+    template: "%s | Servis i popravka roletni Beograd | Ugradnja novih",
   },
   description:
-    "Roletnar, servis i poprakva svih vrsta roletni. Montaža i ugradnja novih roletni. Aluminijumske roletne, PVC roletne, drvene roletne, venecijaneri, trakaste zavese. Popravka drvenih roletni, reparavija i ugradnja.",
+    "Servis i reparacija drvenih roletni, ugradnja novih alu i pvc roletni. Popravljamo sve vrste, od venecijanera do trakastih zavesa. Brzo i povoljno.",
 
   openGraph: {
-    title: "Servis i popravka roletni Beograd",
+    title: "Servis i popravka roletni Beograd | Ugradnja novih",
     description:
-      "Roletnar, servis i poprakva svih vrsta roletni. Montaža i ugradnja novih roletni. Aluminijumske roletne, PVC roletne, drvene roletne, venecijaneri, trakaste zavese. Popravka drvenih roletni, reparavija i ugradnja.",
+      "Servis i reparacija drvenih roletni, ugradnja novih alu i pvc roletni. Popravljamo sve vrste, od venecijanera do trakastih zavesa. Brzo i povoljno.",
     url: "https://servis-popravka-roletni",
     siteName: "Servis i popravka roletni",
     images: [
