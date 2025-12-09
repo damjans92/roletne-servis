@@ -85,7 +85,7 @@ export default function HeroCarousel() {
                     </p>
                     <a
                       href="tel:+381643922467"
-                      className="inline-flex items-center gap-3 bg-[#bb8c30] hover:bg-[#d4a050] text-white font-redhat font-medium uppercase tracking-wider px-10 py-5 transition-all hover:scale-105 hover:shadow-2xl rounded-sm"
+                      className="inline-flex items-center gap-3 bg-[#bb8c30] hover:bg-[#d4a050] text-white font-redhat font-medium uppercase tracking-wider px-10 py-5 transition-all hover:scale-105 hover:shadow-2xl"
                     >
                       Pozovite odmah
                       <ChevronRight className="w-5 h-5" />

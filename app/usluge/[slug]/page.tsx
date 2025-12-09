@@ -118,10 +118,10 @@ export default async function ServicePage({
                   alt={service.title}
                   width={800}
                   height={600}
-                  className="w-full h-auto object-cover shadow-2xl transition-transform duration-700 group-hover:scale-[1.02]"
+                  className="w-full h-auto object-cover shadow-2xl rounded-lg transition-transform duration-700 group-hover:scale-[1.02]"
                 />
 
-                <div className="absolute inset-0 border-4 border-transparent group-hover:border-[#bb8c30] transition-all duration-500 pointer-events-none" />
+                <div className="absolute inset-0 rounded-lg border-4 border-transparent group-hover:border-[#bb8c30] transition-all duration-500 pointer-events-none" />
               </div>
             </div>
           </div>

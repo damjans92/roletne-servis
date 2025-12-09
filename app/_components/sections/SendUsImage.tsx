@@ -74,7 +74,7 @@ const SendUsImage = () => {
                 href="viber://chat?number=%2B381658488408"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="mt-8 inline-flex items-center gap-3 px-8 py-4 bg-[#bb8c30] text-white font-black uppercase tracking-widest text-sm hover:bg-[#222] hover:text-[#bb8c30] rounded-lg shadow-lg hover:shadow-2xl hover:shadow-[#bb8c30]/20 transition-all duration-300"
+                className="mt-8 inline-flex items-center gap-3 px-8 py-4 bg-[#bb8c30] text-white font-black uppercase tracking-widest text-sm hover:bg-[#222] hover:text-[#bb8c30] shadow-lg hover:shadow-2xl hover:shadow-[#bb8c30]/20 transition-all duration-300"
               >
                 <FaViber />
                 Pošalji preko Vibera

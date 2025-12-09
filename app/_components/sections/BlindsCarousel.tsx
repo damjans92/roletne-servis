@@ -84,13 +84,13 @@ export default function TextCarousel() {
                 selectedIndex === 0
                   ? "/alu-roletne.jpg"
                   : selectedIndex === 1
-                  ? "/wooden-blinds.jpg"
+                  ? "/drvene-roletne.jpg"
                   : "/plasticne-roletne.jpg"
               }
               alt="Roletne"
               width={730}
               height={410}
-              className="w-full object-cover shadow-2xl"
+              className="w-full object-cover shadow-2xl rounded-lg"
               style={{ height: "410px", objectFit: "cover" }}
               priority
             />

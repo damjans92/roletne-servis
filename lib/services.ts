@@ -24,7 +24,7 @@ export const services = [
     seoTitle: "Popravka i Zamena Automata za Roletne | Cena Usluge",
     metaDescription:
       "Servis i zamena automata na roletnama. Rešavamo najčešće kvarove brzo i efikasno. Pozovite za cenu popravke automata.",
-    image: "/instalacija-roletni.jpg",
+    image: "/automat-za-roletne.png",
     icon: "/service2.png",
     bgColor: "dark",
   },
@@ -52,7 +52,7 @@ export const services = [
     seoTitle: "Reparacija Drvenih Roletni Beograd | Obrada i Farbanje",
     metaDescription:
       "Kompletna reparacija starih drvenih roletni, obrada drveta, zaštitno premazivanje i montaža. Vratite sjaj svojim drvenim roletnama.",
-    image: "/instalacija-roletni.jpg",
+    image: "/reparirane-drvene-roletne-usluga.jpg",
     icon: "/service4.png",
     bgColor: "dark",
   },
