@@ -26,7 +26,9 @@ export const metadata: Metadata = {
   },
   description:
     "Servis i reparacija drvenih roletni, ugradnja novih alu i pvc roletni. Popravljamo sve vrste, od venecijanera do trakastih zavesa. Brzo i povoljno.",
-
+  alternates: {
+    canonical: "https://www.servis-popravka-roletni.com",
+  },
   openGraph: {
     title: "Servis i popravka roletni Beograd | Ugradnja novih",
     description:

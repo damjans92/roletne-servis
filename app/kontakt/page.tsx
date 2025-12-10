@@ -6,7 +6,9 @@ export const metadata = {
   title: "Kontakt – Roletne Servis Beograd | 064/3922-467",
   description:
     "Pozovite odmah 064/3922-467 – dolazak u najkraćem roku na celoj teritoriji Beograda. Radimo od 08-20h 7 dana u nedelji.",
-
+  alternates: {
+    canonical: "https://servis-popravka-roletni.com/kontakt",
+  },
   openGraph: {
     title:
       "Kontakt – Servis i popravka roletni Beograd | Popravka i ugradnja roletni 064/3922-467",

@@ -6,6 +6,9 @@ export const metadata: Metadata = {
   title: "Galerija roletni i delova",
   description:
     "Pregled različitih tipova roletni, kutija, gurtni i mehanizama. Fotografije služe kao ilustracija proizvoda, ne predstavljaju izvedene radove.",
+  alternates: {
+    canonical: "https://servis-popravka-roletni.com/galerija",
+  },
   openGraph: {
     title: "Galerija roletni i delova",
     description:
