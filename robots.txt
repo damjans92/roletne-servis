@@ -1,14 +1,4 @@
 User-agent: *
-Disallow: /
+Allow: /
 
-# Extra explicit blocks for common crawlers (optional but harmless)
-User-agent: Googlebot
-Disallow: /
-
-User-agent: Bingbot
-Disallow: /
-
-User-agent: GPTBot
-Disallow: /
-
-Sitemap: (none)
+Sitemap: https://servis-popravka-roletni.com/sitemap.xml

@@ -85,7 +85,7 @@ export default function TextCarousel() {
                   ? "/alu-roletne.jpg"
                   : selectedIndex === 1
                   ? "/drvene-roletne.jpg"
-                  : "/plasticne-roletne.jpg"
+                  : "/pvc-roletne.jpg"
               }
               alt="Roletne"
               width={730}
