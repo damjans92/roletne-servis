@@ -4,7 +4,7 @@ import Navigation from "./Navigation";
 
 const Footer = () => {
   return (
-    <footer className="bg-[#0a0a0a] text-white overflow-hidden">
+    <footer className="bg-[var(--color-accent-gold)] text-white overflow-hidden">
       <div className="h-1 bg-gradient-to-r from-transparent via-[#bb8c30] to-transparent"></div>
 
       <div className="max-w-7xl mx-auto px-6 py-16 md:py-20">
@@ -15,7 +15,7 @@ const Footer = () => {
           <Navigation />
         </div>
 
-        <div className="mt-16 pt-8 border-t border-gray-800 text-center text-xs tracking-widest text-gray-600">
+        <div className="mt-16 pt-8 border-t border-white text-center text-xs tracking-widest text-white">
           © {new Date().getFullYear()} Servis i popravka roletni - Roletnar
           Beograd • Sva prava zadržana
         </div>

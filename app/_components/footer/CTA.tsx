@@ -9,20 +9,20 @@ const CTA = () => {
       <div className="space-y-4 text-xl font-bold">
         <a
           href="tel:+381643922467"
-          className="block hover:text-[#bb8c30] transition"
+          className="block hover:text-black transition"
         >
           064 / 3922 467
         </a>
         <a
           href="tel:+381658488408"
-          className="block hover:text-[#bb8c30] transition"
+          className="block hover:text-black transition"
         >
           065 / 8488 408
         </a>
 
         <a
           href="tel:+381603339656"
-          className="block hover:text-[#bb8c30] transition"
+          className="block hover:text-black transition"
         >
           060 / 3339 656
         </a>

@@ -25,13 +25,13 @@ const ServiceCard = ({
           relative h-full min-h-[380px] flex flex-col justify-between p-8 lg:p-10
           transition-all duration-300
           border-4 border-transparent
-          group-hover:border-[#bb8c30]
-          group-hover:shadow-[8px_8px_0_#bb8c30]
+          group-hover:border-[#F9BE08]
+          group-hover:shadow-[8px_8px_0_#F9BE08]
           group-hover:-translate-y-1
           ${
             isOrange
               ? "bg-gradient-to-br from-[#bb8c30] to-[#a0741e]"
-              : "bg-gradient-to-br from-[#333333] to-[#1f1f1f]"
+              : "bg-gradient-to-br from-[#F9BE08] to-[#ce9c07]"
           }
         `}
       >
