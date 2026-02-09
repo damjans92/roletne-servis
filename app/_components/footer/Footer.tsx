@@ -8,7 +8,7 @@ const Footer = () => {
       <div className="h-1 bg-gradient-to-r from-transparent via-[#bb8c30] to-transparent"></div>
 
       <div className="max-w-7xl mx-auto px-6 py-16 md:py-20">
-        <div className="grid grid-cols-1 md:grid-cols-12 gap-12">
+        <div className="grid grid-cols-1 md:grid-cols-12 md:gap-12">
           <Logo />
           <div className="md:col-span-1"></div>
           <CTA />

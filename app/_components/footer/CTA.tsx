@@ -30,7 +30,7 @@ const CTA = () => {
 
       <Link
         href="tel:+381643922467"
-        className="mt-10 inline-block border-2 border-[#bb8c30] text-[#bb8c30] hover:bg-[#bb8c30] hover:text-black px-10 py-4 uppercase tracking-widest text-sm font-black transition duration-300"
+        className="mt-10 inline-block border-2 border-white text-white hover:bg-[#bb8c30] hover:text-black px-10 py-4 uppercase tracking-widest text-sm font-black transition duration-300"
       >
         Pozovite sada
       </Link>
